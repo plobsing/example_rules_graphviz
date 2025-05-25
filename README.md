@@ -4,7 +4,7 @@ Example implementations of a simple Graphviz ruleset for Bazel inspired by
 https://fzakaria.com/2025/05/20/bazel-knowledge-a-practical-guide-to-depset .
 
 Implemented primarily to benchmark the alternate implementations and to propose
-a third implementation (`dot_lazy.bzl`) taht I believe is more performant.
+a third implementation (`dot_lazy.bzl`) that I believe may be more performant.
 
 ## Quick-and-dirty benchmark procedure
 
