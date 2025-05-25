@@ -1,0 +1,13 @@
+load("//:dot.bzl", "node")
+
+node(
+    name = "node1",
+)
+
+[
+    node(
+        name = "node{}".format(i+1),
+        edges = [":node{}".format(i)],
+    )
+    for i in range(1, 3000)
+]
